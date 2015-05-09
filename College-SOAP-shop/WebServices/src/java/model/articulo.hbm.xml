@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="model.Articulo" table="articulos">
+      <id       name="id"           column="ID"             type="java.lang.String"/>      
+      <property name="precio_e"     column="PRECIO_E"       type="java.lang.Double"/>
+      <property name="nombre"       column="NOMBRE"         type="java.lang.String"/>
+      <property name="descripcion"  column="DESCRIPCION"    type="java.lang.String"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,118 @@
+/*
+Colores:
+094260
+azul oscuro, encabezado: #0C4E70
+azul muy oscuro borde: #002C43
+azul cielo: #CEE1EB
+azil claro: #E6F0F5
+marron oscuro: #4D2600
+naranja claro: #FFE8BD
+*/
+.form_web label{
+    font-size:1.28em;    
+}
+
+.form_web span{
+    font-weight: normal;    
+    text-align: center;
+    color:#B81800;
+}
+
+.form_web input{
+    display: inline-block;
+    width:300px;
+    height:20px;
+    
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #FFE8BD;
+}
+
+.form_web input.buttom{
+    width:160px;
+    background-color:#0C4E70;
+    
+    color:#ffffff;
+    font-weight: bold;
+    
+    box-shadow: 0.5px 0.5px 1px #000000;
+    
+    border-width: 0px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #4D2600;
+    background-image:url('../img/light_background.png');
+    background-repeat:repeat;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+header{
+    background-color:#0C4E70;
+    width:100%;
+    height:40px;
+    padding-top: 5px;
+    
+    border-bottom-style:solid;
+    border-bottom-width:2px; 
+    border-color:#002C43;
+}
+
+header h2,h3{
+    font-weight: normal;    
+    text-align: left;
+    margin-left:150px;
+    letter-spacing: 2px; 
+    margin-top:2px;
+    text-transform: uppercase;
+    color:#E8DED3; 
+}
+
+header h3{
+    text-align: right;
+    font-weight: normal;    
+    margin-right:150px;    
+    margin-top:-45px;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 1px; 
+}
+
+#middle{
+   width: 1024px;
+   height: 100%;
+   position: absolute;
+   
+   
+   margin-left: -512px;
+   margin-top: -107px;
+   
+   left: 50%;
+}
+
+#middle div.entrada{
+   background-color: #ffffff;
+   padding-bottom: 20px;
+   border-radius: 15px;
+   margin: 30px 0px;
+   padding:30px 20px;
+}
+
+footer{
+    background-color:#0C4E70;
+    width:100%;
+    height:20px;
+    position:absolute;
+    bottom:0;
+    
+    border-top-style:solid;
+    border-top-width:2px; 
+    border-color:#002C43;
+}

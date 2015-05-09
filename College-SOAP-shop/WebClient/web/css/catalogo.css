@@ -1,0 +1,68 @@
+.form_web select{
+    display: inline-block;
+    width:300px;
+    height:20px;
+    
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #FFE8BD;
+}
+
+#content{
+    margin-top:140px;
+}
+
+.entrada table, th, td
+{
+    border:1px solid white;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+.entrada table{
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+    margin-top:30px;
+}
+
+.entrada th:first-child{
+    border-top-left-radius: 15px;
+}
+.entrada th:last-child{
+    border-top-right-radius: 15px;
+}
+.entrada tr:last-child td:first-child{
+    border-bottom-left-radius: 15px;
+}
+.entrada tr:last-child td:last-child{
+    border-bottom-right-radius: 15px;    
+}
+
+.entrada th{
+    background-color: #0C4E70;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.entrada td{
+    padding: 5px;
+    padding-left: 10px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #FFE8BD;
+}
+
+label{
+    display: block;
+    font-size:1.2em;  
+    margin-top:-15px;
+    margin-bottom:20px;
+}
+
+.entrada .text{
+    margin-left: 30px;
+}
